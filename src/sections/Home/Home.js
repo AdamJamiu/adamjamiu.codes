@@ -57,7 +57,7 @@ const Home = () => {
                     color="secondary"
                     className={classes.subTitle}
                 >
-                    {t("home_what_i_do")}
+                    I make aesthetic websites
                 </Typography>
                 <Typography
                     component={motion.p}

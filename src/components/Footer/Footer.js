@@ -6,13 +6,14 @@ const Footer = () => {
     const classes = useStyles();
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+    const year  = new Date().getFullYear()  // returns the current year
     return (
         <Container>
             <Divider style={{ backgroundColor: theme.palette.primary.main }} />
             <Box className={classes.footer}>
                 {isMobile && <Social mobile />}
                 <Typography variant="body2" color="initial">
-                    © 2021 Mehdi BHA, Inc
+                    © {year } ADAM JAMIU
                 </Typography>
             </Box>
         </Container>

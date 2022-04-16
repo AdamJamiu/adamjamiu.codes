@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { makeStyles } from "@material-ui/core";
 import { motion, useAnimation } from "framer-motion";
-import { LinkedIn, Instagram, GitHub, Email } from "@material-ui/icons";
+import { LinkedIn, Twitter, GitHub, Email } from "@material-ui/icons";
 import IconBtn from "../IconBtn";
 import DarkModeSwitcher from "../DarkModeSwitcher";
 import loaderContext from "../../contexts/loaderContext";
@@ -28,20 +28,20 @@ const Social = ({ mobile }) => {
     if (mobile) {
         return (
             <div className={classes.mobileWrapper}>
-                <IconBtn icon={GitHub} m={1} href="https://github.com/Mehdi-BHA" />
-                <IconBtn icon={Instagram} m={1} href="https://www.instagram.com/mehdibha/" />
+                <IconBtn icon={GitHub} m={1} href="https://github.com/AdamJamiu" />
+                <IconBtn icon={Twitter} m={1} href="https://www.twitter.com/AdamJamiu7/" />
                 <IconBtn icon={LinkedIn} m={1} href="https://www.linkedin.com/in/mehdi-ben-hadj-ali-6a7435131/" />
-                <IconBtn icon={Email} m={1} href="mailto:mehdibenhadjali@gmail.com" />
+                <IconBtn icon={Email} m={1} href="mailto:adamjamiu98@gmail.com" />
             </div>
         );
     } else {
         return (
             <motion.div className={classes.wrapper}>
                 <motion.div animate={controls} custom={0}>
-                    <IconBtn icon={GitHub} m={1} href="https://github.com/Mehdi-BHA" />
+                    <IconBtn icon={GitHub} m={1} href="https://github.com/AdamJamiu" />
                 </motion.div>
                 <motion.div animate={controls} custom={1}>
-                    <IconBtn icon={Instagram} m={1} href="https://www.instagram.com/mehdibha/" />
+                    <IconBtn icon={Twitter} m={1} href="https://www.twitter.com/AdamJamiu7/" />
                 </motion.div>
                 <motion.div animate={controls} custom={2}>
                     <IconBtn icon={LinkedIn} m={1} href="https://www.linkedin.com/in/mehdi-ben-hadj-ali-6a7435131/" />
