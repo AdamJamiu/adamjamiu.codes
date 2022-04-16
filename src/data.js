@@ -46,7 +46,7 @@ const experienceList = [
     },
     {
         id: 1,
-        company: "vapoter.tn",
+        company: "My StudyPadi",
         links: {
             instagram: "https://www.instagram.com/vapoter.tn/",
         },

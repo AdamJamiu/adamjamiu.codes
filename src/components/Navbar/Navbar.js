@@ -5,6 +5,7 @@ import { motion, useAnimation } from "framer-motion";
 import Menu from "./Menu";
 import MobileMenu from "./MobileMenu";
 import HamburgerIcon from "./HamburgerIcon";
+import logo from "../../../src/assets/images/logo.png"
 import loaderContext from "../../contexts/loaderContext";
 
 const Navbar = () => {
@@ -56,7 +57,9 @@ const Navbar = () => {
                         damping: 20,
                     }}
                 >
-                    <div className={classes.logo} setHomeIsActive={setHomeIsActive} >adamjamiu.code</div>
+                    <div className="logo" setHomeIsActive={setHomeIsActive} >
+                        <img src={logo} width="150px" alt="Logo" height="15px" />
+                        </div>
                     <Hidden smDown>
                         <Menu homeIsActive={homeIsActive} />
                     </Hidden>
