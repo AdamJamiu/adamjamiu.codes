@@ -1,15 +1,12 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import VideoMask from "../../assets/images/VideoMask";
+// import VideoMask from "../../assets/images/VideoMask";
 
 const VideoLogo = (props) => {
     const classes = useStyles();
     return (
         <div className={classes.wrapper} {...props}>
-            <VideoMask className={classes.mask} />
-            <video autoPlay muted loop preload="auto" className={classes.video}>
-                <source src="https://d33wubrfki0l68.cloudfront.net/ab4c4ea31f1543825102ebf15a35080cdc1397ce/b8c4f/static/images/frontpage/hero/gradient.mp4" />
-            </video>
+           ADAM JAMIU
         </div>
     );
 };
