@@ -1,12 +1,12 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-// import VideoMask from "../../assets/images/VideoMask";
+import VideoMask from "../../assets/images/VideoMask";
 
 const VideoLogo = (props) => {
     const classes = useStyles();
     return (
         <div className={classes.wrapper} {...props}>
-           ADAM JAMIU
+          <VideoMask />
         </div>
     );
 };
