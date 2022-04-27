@@ -24,14 +24,14 @@ const projectList = [
             "https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?size=626&ext=jpg&ga=GA1.2.2102900112.1628985600",
         frontImage: "https://i.ibb.co/0QFY9V9/study.png",
     },
-    {
-        id: 3,
-        title: "Burpees.io",
-        technologies: ["React JS", "Node JS", "MongoDB"],
-        backgroundImage:
-            "https://media.istockphoto.com/vectors/abstract-purple-vector-background-with-stripes-vector-id972475894?k=6&m=972475894&s=612x612&w=0&h=99AirGMOb64N2-1ZSMYRjEBp2USrAdzXUGzQMh5o6Js=",
-        frontImage: "https://themes-backend.material-ui.com/wp-content/uploads/2021/05/01_preview.jpg",
-    },
+    // {
+    //     id: 3,
+    //     title: "Burpees.io",
+    //     technologies: ["React JS", "Node JS", "MongoDB"],
+    //     backgroundImage:
+    //         "https://media.istockphoto.com/vectors/abstract-purple-vector-background-with-stripes-vector-id972475894?k=6&m=972475894&s=612x612&w=0&h=99AirGMOb64N2-1ZSMYRjEBp2USrAdzXUGzQMh5o6Js=",
+    //     frontImage: "https://themes-backend.material-ui.com/wp-content/uploads/2021/05/01_preview.jpg",
+    // },
 ];
 
 const experienceList = [
