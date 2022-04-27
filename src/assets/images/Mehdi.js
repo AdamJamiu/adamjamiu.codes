@@ -57,7 +57,7 @@ const Mehdi = (props) => {
 
     return (
         <>
-            <Watch ariaLabel="loading-indicator" />
+            <Watch color="white" ariaLabel="loading-indicator" />
         </>
     );
 };

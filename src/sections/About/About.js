@@ -30,7 +30,7 @@ const About = () => {
                     <Box mb={4}>
                         <Typography variant="body1">{t('about_desc')}</Typography>
                     </Box>
-                    <Skills />
+                <Skills />
                 </Grid>
                 {!isMobile && (
                     <Grid item xs={12} md={5} className={classes.gridItemWrapper}>
